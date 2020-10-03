@@ -1,5 +1,5 @@
 # AKAN-NAME-GENERATOR
-#### An application for finding out your Akan Name by only using your birth dates and gender only
+#### An application to find out your Akan Name by only using your birth date and gender
 #### By **DENNIS MUNENE**
 ## Description
 This web application is for helping determine your Akan Name by taking in your gender and birthday credentials from which it calculates the exact week and day you were born, and thereafter generates your Akan Name which is seen after submitting the credentials.
@@ -27,4 +27,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-# AKAN-NAMES
