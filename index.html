@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Akan Names</title>
+        <title>Akan-Name-Generator</title>
         <meta charset="utf-8">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
         <link
@@ -12,24 +12,24 @@
       crossorigin="anonymous"
     />
        <body>
-         <div class="container">
-           <h1>Akan Names Generator</h1>
-             <p>Hello World, welcome to Akan-Name-Generator.<p>
-               <p>This web application has been developed to help you determine your Akan Name.</p>
-                 <h1>How It Works<h1>
-                   <p style="color: black; font-weight: normal;" >By simply inputting your gender and birthday credentials, it calculates the exact day and week <br>
+        <div class="jumbotron">
+          <h1 class="display-4">Akan-Name-Generator</h1>
+          <p class="lead">Hello World, welcome to Akan-Name-Generator.<p>
+          </div>
+                 <h1 style="color: #ffffff;">How It Works<h1>
+                   <p style="color: ; font-weight: normal;" >By simply inputting your gender and birthday credentials, it calculates the exact day and week <br>
               you were born, after which it generates your Akan Name which you will see <br>
               after submitting your form.</p>
             </div>
 
-            <h1>What are Akan Names?<h1>
+            <h1 style="color: white;">What are Akan Names?<h1>
 
              <p style="color: black; font-weight: normal;" >Akan Names derived from the Ghanian culture where children are given their first name as <br>
                 a 'day name' which corresponds to the day of the week in which they were born.<br>
                 You can read more about Akan Names <a href="https://en.wikipedia.org/wiki/Akan_names "target="_blank"> here.</a><p>
 
                   <div class="card-body">
-                    <p> To get started, please key in your date of birth, month and year.<p>
+                    <p style="color: blanchedalmond;"> To get started, please key in your date of birth, month and year.<p>
                     <select name="day" id="day">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -82,7 +82,7 @@
              <input type="number" id="year">
              <br>
 
-          <p>Please select your gender.</p>
+          <p style="color: white;">Please select your gender.</p>
           <select name="Gender" id="gender">
             <option value="male">Male</option>
             <option value="female">Female</option>
@@ -91,9 +91,18 @@
           <br>
         </div>
         <div class="card-footer">
-          <p>Please click submit to get your akan name!</p>
-          <input type="button" value="submit" onclick="akan()">
-          <h4 id = "display"></h4>
+          <p style="color: white;">Click "submit" to get your Akan Name!</p>
+          <input type="button" value="SUBMIT" onclick="akan()">
+          <h4 id ="display"></h4>
+          <script src="js/script.js">
+          </script>
+          <footer>
+          </div>
+          <div class="footer">
+        <h3 style="color: white;"><b><i>Copyright &copy; 2020<a href="https://munenedennis.github.io/MyPortfolio/"> Dennis Munene</a></i></b></h3>
+        <p style="color: white;"><u><b><i>officialmunene@gmail.com</i></b></u></p>  
+    </div>
+          </footer>
         </div>
       </div>
        </body>
